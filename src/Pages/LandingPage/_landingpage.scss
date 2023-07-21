@@ -1,0 +1,207 @@
+.lp-cont1 {
+  background-color: #f5f8ff;
+  min-height: 100vh;
+  .lp-cont2 {
+    display: flex;
+    justify-content: space-between;
+    // width: 100%;
+
+    background-color: #2d67fa;
+    // height: 40px;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    .lp-cont3 {
+      img {
+        height: 18px;
+        cursor: pointer;
+      }
+    }
+    .lp-cont4 {
+      font-size: 22px;
+      font-weight: 600;
+      color: white;
+    }
+    .lp-cont5 {
+      img {
+        height: 24px;
+        cursor: pointer;
+      }
+    }
+  }
+  .lp-cont6 {
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    .lp-cont8 {
+      padding: 1rem;
+      .lp-cont7 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        align-items: center;
+        .lp-text1 {
+          font-size: 20px;
+          font-weight: 600;
+        }
+        .lp-text2 {
+          font-size: 12px;
+          font-weight: 600;
+          color: gray;
+        }
+        .lp-text3 {
+          font-size: 14px;
+          font-weight: 600;
+          color: gray;
+        }
+        .lp-text4 {
+          font-size: 14px;
+          font-weight: 400;
+          background-color: #dae6ff;
+          padding: 0.5rem 0.7rem;
+          border-radius: 5px;
+        }
+      }
+    }
+    .lp-cont15 {
+      padding: 1rem;
+      .lp-cont7 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        align-items: center;
+        .lp-text1 {
+          font-size: 22px;
+          font-weight: 600;
+        }
+        .lp-text2 {
+          font-size: 14px;
+          font-weight: 600;
+          color: gray;
+        }
+        .lp-text3 {
+          font-size: 16px;
+          font-weight: 600;
+          color: gray;
+        }
+        .lp-text4 {
+          font-size: 14px;
+          font-weight: 400;
+          background-color: #dae6ff;
+          padding: 0.5rem 0.7rem;
+          border-radius: 5px;
+        }
+      }
+    }
+    .lp-cont9 {
+      background-color: #3476ff;
+      display: flex;
+      width: 100%;
+      align-items: center;
+      // justify-content: space-between;
+
+      flex-wrap: wrap;
+      .lp-cont10 {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 15%;
+        .lp-cont11 {
+          // min-width: 30%;
+          width: 100%;
+          color: white;
+          margin: 0.5rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: 600;
+          height: 100%;
+          cursor: pointer;
+          // padding: 0.4rem;
+          .lp-cont11-sub {
+            padding: 0.3rem 0.7rem;
+          }
+        }
+        .lp-cont12 {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #dae6ff;
+          width: 100%;
+          padding: 0.7rem 0;
+          .lp-img2 {
+            width: 18px;
+          }
+        }
+      }
+    }
+  }
+  .lp-cont13 {
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+    .lp-img3 {
+      width: 150px;
+      margin-top: 2rem;
+    }
+    .lp-text5 {
+      margin-top: 2rem;
+      font-weight: 600;
+      font-size: 18px;
+      text-align: center;
+      padding: 0 1rem;
+    }
+    .lp-img4 {
+      margin-top: 2rem;
+      cursor: pointer;
+    }
+  }
+}
+#employee-active {
+  background-color: white;
+  color: #3476ff;
+  border-radius: 50%;
+  // padding: 0;
+}
+#lp-attendance {
+  // width: 60%;
+  .attendance1 {
+    color: black;
+    font-size: 15px;
+    margin-top: 0.2rem;
+  }
+  .attendance2 {
+    color: gray;
+    font-size: 13px;
+    // margin-left: 1rem;
+  }
+}
+.attendance-sub {
+  // width: 70%;
+  width: 90%;
+  display: flex;
+  // flex-direction: column;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+.attendance-sub2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.attendance-div1 {
+  font-size: 19px;
+  margin: 0.5rem 0 0 0;
+  padding: 0;
+}
+.deletebutton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
